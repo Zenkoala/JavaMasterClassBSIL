@@ -1,0 +1,43 @@
+package ee.sda;
+
+public class DoubleAndFloat {
+
+      public static void main(String[] args) {
+
+            float myMinFloatValue = Float.MIN_VALUE;
+            float myMaxFloatValue = Float.MAX_VALUE;
+            System.out.println("Float minimum value = " + myMinFloatValue);
+            System.out.println("Float maximum value = " +myMaxFloatValue);
+
+            double myMinDoubleValue = Double.MIN_VALUE;
+            double myMaxDoubleValue = Double.MAX_VALUE;
+            System.out.println("Double minimum value = " + myMinDoubleValue);
+            System.out.println("Double maximum value = " +myMaxDoubleValue);
+
+            int myIntValue = 5 / 3;
+            float myFloatValue = 5f / (float) 3d;
+            double myDoubleValue = 5.00 / 3.00;
+            System.out.println("MyIntValue= " + myIntValue);
+            System.out.println("MyFloatValue= " + myFloatValue);
+            System.out.println("MyDoubleValue= " + myDoubleValue);
+
+            double numberOfPounds = 200d;
+            double convertedKilograms = numberOfPounds * 0.45359237d;
+            System.out.println("Converted kilograms= " + convertedKilograms);
+
+            double pi = 3.1415927d;
+            double anotherNumber = 3_000_000.4_567_890d;
+            System.out.println(pi);
+            System.out.println(anotherNumber);
+
+
+            double lbInKg = 0.45359237;
+            double pounds = 124;
+
+            double totalKilogramms = lbInKg * pounds;
+
+            System.out.println(lbInKg + " pounds is exactly " + totalKilogramms + "kg");
+
+      }
+
+}
